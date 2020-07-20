@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{fontawesome}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{JAY DANGAR} % Your name
+\address{B/14 Nandanvan Park Society, Opp. Girivar Bunglows, Vastral, Ahmedabad. 382418.} % Your secondary addess (optional)
+\address{
+\\ \href{tel:+91 9725900537}{\faMobile}
+\\ \href{mailto:jayjaydangar96@example.com}{\faEnvelope}
+\\ \href{https://github.com/jaydangar}{\faGithub}
+\\ \href{https://bitbucket.org/Jaydangar/}{\faBitbucket}
+\\ \href{https://www.linkedin.com/in/jay-dangar-394912106/}{\faLinkedinSquare}
+\\ \href{https://stackoverflow.com/users/5250973/jay-dangar}{\faStackOverflow}
+}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Introduction}
+
+{A highly focused engineer, who loves to solve real world problems through building products from scratch.}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Technology in Information and Communication Technology} \hfill {2014 - 2018}
+\\ 
+School of Engineering And Applied Science, Ahmedabad University.
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & C, Java, Python and Dart. \\ 
+Frameworks & Android, Flutter, Spring, Django-Rest-Framework   \\  
+Database & MongoDB, MySQL, PostgreSQL, SQLite, Realm \\
+Other Tools & GitHub, BitbBucket, AWS, Firebase, Latex,  Arduino, Raspberry pi \\
+\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+\begin{rSubsection}{Cheruvu}{August 2018 - Ongoing}{An Agricultural Startup}
+
+\item \href{https://play.google.com/store/apps/details?id=in.cheruvu.cheruvu&hl=en_IN.}{Cheruvu} aims to help farmers grow their production through soil testing and recommendation.
+\item I was solely responsible for creating an Android app, Back-end API in \texttt{Spring Framework} and Hosting that Back-end on \texttt{AWS}.
+\end{rSubsection} 
+
+
+%------------------------------------------------
+\begin{rSubsection}{Disha Consultancy}{February 2018 - August 2018}{Recommendation System}
+
+\item \href{https://bitbucket.org/Jaydangar/finalyearproject/src/master/}{Foreign University Recommendation System} is created to assist councillors in making university predictions based on Student's academic credentials such as GRE, IELTS, CGPA, etc.
+\item \texttt{Scikit learn} was used to train ML Models, along with \texttt{Pickle} to save and load those models.
+\end{rSubsection} 
+%------------------------------------------------
+\end{rSection}
+
+
+\begin{rSection}{Projects}
+\begin{rSubsection}{RSolver}{Jan 2018 - June 2018}{Solves Rubik's cube}
+
+\item \href{https://bitbucket.org/Jaydangar/rsolverapp/src/master/}{RSolver} is native android application that takes images of six sides of Rubik’s cube as input and outputs minimum number of steps to solve it. \texttt{min2phase} algorithm was used to generated the steps.
+\end{rSubsection} 
+
+%------------------------------------------------
+\begin{rSubsection}{Silencio}{Jan 2018 - June 2018}{Silent phones}
+
+\item \href{https://bitbucket.org/Jaydangar/silencioapp/src}{Silencio} is native android app, Specially targeted for the users who forgets to silent their phones while attending special occassions, where phones are prohibited.
+\end{rSubsection} 
+%------------------------------------------------
+
+%------------------------------------------------
+\begin{rSubsection}{Calculator}{Feb 2020 - March 2020}{Scientific Calculator}
+
+\item \href{https://github.com/jaydangar/ScientificCalculator}{Calculator} android app is created to test the potential of \texttt{Flutter}. It uses bloc as a state management technique.
+It can be ported to iOS, Desktop and Web Platform as it's created with Flutter.
+\end{rSubsection} 
+%------------------------------------------------
+
+%------------------------------------------------
+\begin{rSubsection}{P2P File Sharing}{Jan 2016 – Mar 2016}{Share files across Computers}
+
+\item \href{https://github.com/jaydangar/Peer-to-Peer-File-Share}{P2P File Sharing} is a networking project creating in \texttt{Core Java's Socket Programming}, which shares files to multiple computers connected over same network.
+\end{rSubsection} 
+%------------------------------------------------
+\end{rSection}
+\end{document}
